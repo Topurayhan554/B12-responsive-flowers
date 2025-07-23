@@ -37,14 +37,14 @@ nav {
   align-items: center;
   margin-top: 30px;
 }
-ul {
+.nav-items {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
   list-style: none;
 }
-ul li a {
+.nav-items li a {
   text-decoration: none;
   color: #252432;
 }
@@ -80,8 +80,6 @@ ul li a {
 }
 .plants-card {
   display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 .plants-card img {
@@ -113,4 +111,49 @@ ul li a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+}
+
+/* plants lover style */
+
+.plants-lover-parent {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+  margin-top: 220px;
+}
+.plants-left {
+  position: relative;
+}
+.plants-left .img-1 {
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  top: -130px;
+  right: -100px;
+}
+
+.plants-left img {
+  width: 100%;
+}
+
+.plants-right {
+  padding: 20px;
+  width: 540px;
+  align-items: center;
+}
+.plants-right h2 {
+  font-size: 3.15rem;
+  font-weight: 700;
+  color: #000000;
+}
+.plants-right ul {
+  padding-left: 25px;
+  font-size: 1.456rem;
+  font-weight: 500;
+  color: #00000080;
+  margin-top: 20px;
+}
+.plants-right ul li {
+  margin-bottom: 20px;
 }

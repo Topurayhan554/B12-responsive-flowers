@@ -18,11 +18,30 @@
     margin: 15px;
     justify-items: center;
     place-items: center;
-    width: 100%;
   }
 
   .btn {
-    padding: 12px 30px;
+    padding: 19px 30px;
     width: 100%;
+  }
+
+  /* plants lover */
+  .plants-lover-parent {
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .img-1 {
+    display: none;
+  }
+  .plants-lover-parent {
+    flex-direction: column;
+  }
+  .plants-left {
+    padding: 20px;
+  }
+  .plants-right {
+    padding: 20px;
+    width: 100%;
+    align-items: center;
   }
 }
