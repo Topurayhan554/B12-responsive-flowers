@@ -65,4 +65,21 @@
   .image-right .topu {
     font-size: 1.2rem;
   }
+
+  /* join */
+  .join-container {
+    height: 276px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .sub-input input {
+    width: 100%;
+  }
+  .join-container .sub-input .btn-2 {
+    padding: 19px 12px;
+  }
+  .join-container h3 {
+    font-size: 1.5rem;
+  }
 }

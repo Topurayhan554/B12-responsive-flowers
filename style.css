@@ -236,3 +236,41 @@ nav {
 .image-right .topu {
   font-size: 1.8rem;
 }
+
+/* join style */
+.join-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/news-letter-bg.png);
+  height: 533px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.join-container h3 {
+  font-size: 3.16rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.sub-input input {
+  width: 644px;
+  color: #00000080;
+  padding: 19px 20px;
+}
+.sub-input {
+  display: flex;
+  align-items: center;
+}
+
+.join-container .sub-input .btn-2 {
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #e95a08;
+  padding: 19px 53px;
+  border: none;
+}
