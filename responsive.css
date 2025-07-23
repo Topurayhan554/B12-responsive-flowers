@@ -13,4 +13,16 @@
   .banner-left {
     margin: 16px;
   }
+  .plants-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 15px;
+    justify-items: center;
+    place-items: center;
+    width: 100%;
+  }
+
+  .btn {
+    padding: 12px 30px;
+    width: 100%;
+  }
 }
