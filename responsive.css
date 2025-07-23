@@ -44,4 +44,25 @@
     width: 100%;
     align-items: center;
   }
+
+  /* deal */
+  .deal-parent {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+  .deal-parent .image-left-1,
+  .deal-parent .image-left-2,
+  .deal-parent .image-right {
+    width: 100%;
+  }
+  .deal-parent .image-right {
+    height: 200px;
+  }
+  .image-right h3 {
+    font-size: 1.5rem;
+  }
+  .image-right .topu {
+    font-size: 1.2rem;
+  }
 }
