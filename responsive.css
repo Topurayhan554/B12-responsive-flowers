@@ -4,6 +4,15 @@
   .banner {
     flex-direction: column-reverse;
   }
+  .common-title h2 {
+    font-size: 2rem;
+  }
+  .banner h2 {
+    font-size: 2.5rem;
+  }
+  .plants-right h2 {
+    font-size: 2rem;
+  }
   nav {
     margin: 20px;
   }
@@ -88,6 +97,6 @@
     flex-direction: column;
     gap: 20px;
     width: 100%;
-    padding: 0px;
+    padding: 14px;
   }
 }

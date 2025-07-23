@@ -11,6 +11,7 @@
 }
 
 .common-title {
+  font-family: "Noto Serif", serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,6 +61,7 @@ nav {
   font-size: 4rem;
   font-weight: 700;
   color: #000000;
+  font-family: "Noto Serif", serif;
 }
 
 .banner span {
@@ -146,6 +148,7 @@ nav {
   font-size: 3.15rem;
   font-weight: 700;
   color: #000000;
+  font-family: "Noto Serif", serif;
 }
 .plants-right ul {
   padding-left: 25px;
@@ -239,8 +242,7 @@ nav {
 
 /* join style */
 .join-container {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assets/news-letter-bg.png);
+  background: url(./assets/news-letter-bg.png);
   height: 533px;
   background-size: cover;
   background-position: center;
@@ -301,8 +303,11 @@ footer ul li a {
 
 .icon-parent {
   display: flex;
+
+  gap: 30px;
 }
 
 .icon-parent img {
-  margin-left: 30px;
+  width: 36px;
+  height: 36px;
 }
