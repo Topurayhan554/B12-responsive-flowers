@@ -82,4 +82,11 @@
   .join-container h3 {
     font-size: 1.5rem;
   }
+
+  /* footer */
+  footer {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
 }
